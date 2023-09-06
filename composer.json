@@ -1,0 +1,31 @@
+{
+    "name": "joemires/laravel-translatable",
+    "description": "A trait to create an independent translations for your Eloquent model",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": ">=5.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Joemires\\Translatable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Joemires\\Translatable\\TranslatableServiceProvider"
+            ]
+        },
+        "aliases": {
+            "Translatable": "Joemires\\Translatable\\Facades\\Translatable"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joseph Bassey",
+            "email": "Joemires20@yahoo.com"
+        }
+    ]
+}
